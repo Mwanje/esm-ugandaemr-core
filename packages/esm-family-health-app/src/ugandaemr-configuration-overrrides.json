@@ -5,7 +5,7 @@
 
       },
       "action-menu-chart-items-slot":{
-  
+
       },
       "action-menu-non-chart-items-slot":{
         "remove":[
@@ -13,13 +13,13 @@
         ]
       },
       "program-management-summary-slot": {
-  
+
       },
       "patient-chart-dashboard-slot": {
-  
+
       },
     "patient-chart-summary-dashboard-slot": {
- 
+
     },
       "cacx-visits-slot": {
         "remove": [
@@ -68,4 +68,3 @@
       }
     }
   }
-}
