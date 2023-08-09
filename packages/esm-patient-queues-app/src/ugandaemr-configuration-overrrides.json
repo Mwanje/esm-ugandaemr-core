@@ -1,9 +1,6 @@
 {
   "@openmrs/esm-patient-chart-app": {
     "extensionSlots": {
-      "patient-actions-slot":{
-
-      },
       "action-menu-chart-items-slot":{
         "remove":[
           "visit-note-nav-button"
@@ -15,7 +12,15 @@
         ]
       },
       "program-management-summary-slot": {
-
+        "remove": [
+          "program-management-summary-ext",
+          "test-results-summary-dashboard",
+          "conditions-summary-dashboard",
+          "results-summary-dashboard",
+          "allergies-summary-dashboard",
+          "attachments-results-summary-dashboard",
+          "drug-orders-summary-dashboard"
+        ]
       },
       "patient-chart-dashboard-slot": {
         "remove": [
@@ -69,8 +74,8 @@
       "homepage-dashboard-slot":{
         "remove": [
           "patient-lists-dashboard-link",
-          "home-widget-db-link",
-          "clinical-appointments-dashboard-link"
+          "patient-queues-dashboard-link",
+          "home-widget-db-link"
         ]
       },
       "homepage-widgets-slot": {
