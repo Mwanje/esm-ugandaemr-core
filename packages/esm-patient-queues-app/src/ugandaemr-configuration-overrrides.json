@@ -5,7 +5,9 @@
 
       },
       "action-menu-chart-items-slot":{
-
+        "remove":[
+          "visit-note-nav-button"
+        ]
       },
       "action-menu-non-chart-items-slot":{
         "remove":[
@@ -16,11 +18,24 @@
 
       },
       "patient-chart-dashboard-slot": {
-
+        "remove": [
+          "test-results-summary-dashboard",
+          "conditions-summary-dashboard",
+          "programs-summary-dashboard",
+          "allergies-summary-dashboard",
+          "attachments-results-summary-dashboard",
+          "offline-tools-patient-chart-actions-dashboard-link"
+        ]
       },
-    "patient-chart-summary-dashboard-slot": {
-
-    },
+      "patient-chart-summary-dashboard-slot": {
+        "remove": [
+          "conditions-overview-widget",
+          "immunization-overview-widget",
+          "notes-overview-widget",
+          "offline-tools-patient-chart-actions-widget",
+          "patient-clinical-view-overview"
+        ]
+      },
       "cacx-visits-slot": {
         "remove": [
           "cacx-visits-ext"
@@ -29,9 +44,9 @@
     }
   },
   "@openmrs/esm-styleguide": {
-      "Brand color #1": "#02210b",
-      "Brand color #2": "#074519",
-      "Brand color #3": "#125726"
+    "Brand color #1": "#02210B",
+    "Brand color #2": "#074519",
+    "Brand color #3": "#125726"
   },
   "@openmrs/esm-patient-registration-app": {
     "fieldConfigurations": {
@@ -58,11 +73,11 @@
           "clinical-appointments-dashboard-link"
         ]
       },
-     "homepage-widgets-slot": {
-      "remove":[
-        "active-visits-widget",
-        "home-appointments"
-      ]
+      "homepage-widgets-slot": {
+        "remove":[
+          "active-visits-widget",
+          "home-appointments"
+        ]
       }
     }
   }
